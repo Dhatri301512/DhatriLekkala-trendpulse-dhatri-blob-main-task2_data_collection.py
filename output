@@ -1,0 +1,27 @@
+output of this code
+
+TrendPulse Task 2 - Cleaning the data!
+==================================================
+Found: trends_20260414.json
+Loading JSON...
+Loaded 83 stories from trends_20260414.json
+Cleaning data...
+Total rows: 83
+After duplicates: 83
+After nulls: 83 (0 removed)
+After low scores: 79 (4 removed)
+Cleaning complete!
+Started: 83 -> Final: 79 rows
+Saved 79 rows to data/trends_clean.csv
+Stories per category:
+  entertainment    25
+  technology       23
+  worldnews        13
+  sports           12
+  science           6
+Data preview:
+                                                                         title   category  score  num_comments
+Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets     sports    365           179
+                                          Write less code, be more responsible technology     37            17
+                                           Servo is now available on crates.io technology    429           140
+Task 2 COMPLETE! Ready for Task 3!
